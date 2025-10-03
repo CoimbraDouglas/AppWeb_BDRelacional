@@ -1,7 +1,3 @@
-README.md pronto (modelo para seu repo)
-
-Cole esse conteúdo no README.md do repositório.
-
 # CRUD com SQL — Banco de Dados: Escola (MariaDB / XAMPP)
 
 ## Descrição
@@ -66,3 +62,10 @@ No XAMPP, o usuário root normalmente não tem senha. Se você configurou senha,
 Os tipos: TINYINT(1) é usado para o campo ativo (0 = inativo, 1 = ativo).
 
 Esse projeto tem fins didáticos; em produção, o gerenciamento de senhas e usuários deve seguir boas práticas.
+
+## Projeto em execução
+
+![Print da aplicação](images/Capturadetela223901.png)
+![Print da aplicação](images/Capturadetela223902.png)
+![Print da aplicação](images/Capturadetela223903.png)
+
