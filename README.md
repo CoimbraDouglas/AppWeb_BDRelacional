@@ -61,7 +61,7 @@ No XAMPP, o usuário root normalmente não tem senha. Se você configurou senha,
 
 Os tipos: TINYINT(1) é usado para o campo ativo (0 = inativo, 1 = ativo).
 
-Esse projeto tem fins didáticos; em produção, o gerenciamento de senhas e usuários deve seguir boas práticas.
+```
 
 ## Projeto em execução
 
