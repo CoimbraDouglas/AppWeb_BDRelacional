@@ -1,21 +1,31 @@
 # CRUD com SQL — Banco de Dados: Escola (MariaDB / XAMPP)
 
+---
+
 ## Descrição
 Projeto didático para praticar comandos SQL básicos (CREATE, READ, UPDATE, DELETE) usando MariaDB via XAMPP/phpMyAdmin.
 A tabela principal é `alunos`, que armazena informações básicas de estudantes.
+
+---
 
 ## Pré-requisitos
 - XAMPP instalado (Apache + MySQL).
 - Acesso ao phpMyAdmin (http://localhost/phpmyadmin).
 
+---
+
 ## Importando o banco (phpMyAdmin)
+
 1. Abra `http://localhost/phpmyadmin`.
 2. Vá em **Importar** e selecione `db/escola.sql` (ou cole o conteúdo na aba SQL).
 3. Execute; o banco `escola` e a tabela `alunos` serão criados com 5 registros de exemplo.
 
+---
+
 ## Comandos SQL (principais)
 
 **Criar banco e tabela (já presente em `db/escola.sql`):**
+
 ```sql
 CREATE DATABASE escola;
 USE escola;
@@ -57,7 +67,7 @@ Deletar aluno por id (ex):
 DELETE FROM alunos WHERE id = 5;
 ```
 
-Observações:
+#### Observações:
 
 No XAMPP, o usuário root normalmente não tem senha. Se você configurou senha, use-a ao importar.
 
