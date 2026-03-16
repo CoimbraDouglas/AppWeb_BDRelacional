@@ -24,7 +24,7 @@ A tabela principal é `alunos`, que armazena informações básicas de estudante
 
 ## Comandos SQL (principais)
 
-**Criar banco e tabela (já presente em `db/escola.sql`):**
+- Criar banco e tabela (já presente em `db/escola.sql`):**
 
 ```sql
 CREATE DATABASE escola;
@@ -32,37 +32,37 @@ USE escola;
 CREATE TABLE alunos (...);
 ```
 
-Inserir (exemplos já no arquivo):
+- Inserir (exemplos já no arquivo):
 ```
 INSERT INTO alunos (nome, email, data_nascimento, curso, ativo) VALUES (...);
 ```
 
-Listar todos:
+- Listar todos:
 ```
 SELECT * FROM alunos;
 ```
 
-Listar apenas ativos:
+- Listar apenas ativos:
 ```
 SELECT * FROM alunos WHERE ativo = 1;
 ```
 
-Buscar por curso:
+- Buscar por curso:
 ```
 SELECT * FROM alunos WHERE curso = 'Engenharia de Software';
 ```
 
-Ordenar por nome:
+- Ordenar por nome:
 ```
 SELECT * FROM alunos ORDER BY nome;
 ```
 
-Atualizar curso de um aluno (ex):
+- Atualizar curso de um aluno (ex):
 ```
 UPDATE alunos SET curso = 'Marketing' WHERE id = 2;
 ```
 
-Deletar aluno por id (ex):
+- Deletar aluno por id (ex):
 ```
 DELETE FROM alunos WHERE id = 5;
 ```
