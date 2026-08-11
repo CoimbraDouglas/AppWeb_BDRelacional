@@ -1,10 +1,11 @@
-# CRUD com SQL — Banco de Dados: Escola (MariaDB / XAMPP)
+# CRUD com SQL — Banco de Dados: Escola
 
 ---
 
 ## Descrição
-Projeto didático para praticar comandos SQL básicos (CREATE, READ, UPDATE, DELETE) usando MariaDB via XAMPP/phpMyAdmin.
-A tabela principal é `alunos`, que armazena informações básicas de estudantes.
+
+> Projeto didático para praticar comandos SQL básicos (CREATE, READ, UPDATE, DELETE) usando MariaDB via XAMPP/phpMyAdmin.
+> A tabela principal é `alunos`, que armazena informações básicas de estudantes.
 
 ---
 
@@ -22,6 +23,14 @@ A tabela principal é `alunos`, que armazena informações básicas de estudante
 
 ---
 
+## Projeto em Execução
+
+![Print da aplicação](images/Capturadetela223901.png)
+![Print da aplicação](images/Capturadetela223902.png)
+![Print da aplicação](images/Capturadetela223903.png)
+
+---
+
 ## Comandos SQL (principais)
 
 - Criar banco e tabela (já presente em `db/escola.sql`):**
@@ -33,6 +42,7 @@ CREATE TABLE alunos (...);
 ```
 
 - Inserir (exemplos já no arquivo):
+
 ```
 INSERT INTO alunos (nome, email, data_nascimento, curso, ativo) VALUES (...);
 ```
@@ -75,9 +85,5 @@ Os tipos: TINYINT(1) é usado para o campo ativo (0 = inativo, 1 = ativo).
 
 ```
 
-## Projeto em execução
 
-![Print da aplicação](images/Capturadetela223901.png)
-![Print da aplicação](images/Capturadetela223902.png)
-![Print da aplicação](images/Capturadetela223903.png)
 
