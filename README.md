@@ -5,6 +5,7 @@
 ## Descrição
 
 > Projeto didático para praticar comandos SQL básicos (CREATE, READ, UPDATE, DELETE) usando MariaDB via XAMPP/phpMyAdmin.
+
 > A tabela principal é `alunos`, que armazena informações básicas de estudantes.
 
 ---
@@ -48,31 +49,37 @@ INSERT INTO alunos (nome, email, data_nascimento, curso, ativo) VALUES (...);
 ```
 
 - Listar todos:
+
 ```
 SELECT * FROM alunos;
 ```
 
 - Listar apenas ativos:
+
 ```
 SELECT * FROM alunos WHERE ativo = 1;
 ```
 
 - Buscar por curso:
+
 ```
 SELECT * FROM alunos WHERE curso = 'Engenharia de Software';
 ```
 
 - Ordenar por nome:
+
 ```
 SELECT * FROM alunos ORDER BY nome;
 ```
 
 - Atualizar curso de um aluno (ex):
+
 ```
 UPDATE alunos SET curso = 'Marketing' WHERE id = 2;
 ```
 
 - Deletar aluno por id (ex):
+
 ```
 DELETE FROM alunos WHERE id = 5;
 ```
@@ -83,7 +90,7 @@ No XAMPP, o usuário root normalmente não tem senha. Se você configurou senha,
 
 Os tipos: TINYINT(1) é usado para o campo ativo (0 = inativo, 1 = ativo).
 
-```
+
 
 
 
